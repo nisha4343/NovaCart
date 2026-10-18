@@ -178,7 +178,7 @@ function App() {
   )
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/NovaCart">
       <div className="app">
         <header className="navbar">
           <Link className="logo" to="/">
